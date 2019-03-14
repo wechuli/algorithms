@@ -3,3 +3,7 @@
  Perhaps the most important principle for the good algorithm designer is to refuse to be content.can we do better?
 ## Karatsuba Multiplication  
 
+## Merge Sort Algorithms
+ -Good introduction to divide and conquer - improves over selection, insertion, bubble sorts
+
+
