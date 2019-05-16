@@ -63,3 +63,11 @@ define the len method to return a measure of the size of the structure.
 ##Implied Methods
 
 - As a general rule, if a particular special method is not implemented in a user-defined class, the standard syntax that relies upon that method will raise an exception. For example, evaluating the expression, a+b, for instances of a user-defined class without __add__ or __radd__ will raise an error. However, there are some operators that have default defintions provided by Python, in the absence of special methods, and there are sopme operators whose definitiots are derived from others
+
+## Iterator
+- An iterator is an object that manages an iteration through a series of values. If variable i identifies an iterator object, then each call to the built-in function next(i),produces a subsequent element from the underlying series, with a StopIteration exception raised to indicate that there are no further elements
+- An iterable is an object, obj, that produces an iterator via the syntax iter(obj)
+-An iterator object can be produced with syntax, i = iter(data), and then each subsequent call to next(i) will return an element of that list. The for-loop syntax in Python simply automates this process, creating an iterator for the given iterable, then repeatedly calling for the next element unitl catching the StopIteration exception
+
+## Generator
+-
