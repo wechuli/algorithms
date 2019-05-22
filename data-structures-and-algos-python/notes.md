@@ -71,3 +71,9 @@ define the len method to return a measure of the size of the structure.
 
 ## Generator
 -
+
+## Abstract Base Classes
+- When defining a group of classes as part of an inheritence hierarchy, one technique for avoiding repetetion of code is to design a base class with common functionality that can be inherited by other classes that need it.In classic object-oriented terminology, we say a class is an abstract base class if its only purpose is to serve as abase class through inheritence
+- More formally, an abstract base class is one that cannot be directly instantiated while a concrete class is one that can be instantiated.
+
+- **template method pattern** - The template method pattern is when an abstract base class provides concerete behavious that rely upon calls for other abstract behaviours. In that way, as soon as a subclass provides definitoins for the missing abstract behaviours, the inherited concerete behavious are well defined.
