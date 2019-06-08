@@ -8,7 +8,7 @@
 
 class Flower:
     def __init__(self, name, petals, price):
-        if not isinstance(name, str) or not isinstance(petals, int) or not (isinstance(price, float) or isinstance(price, int)):
+        if not isinstance(name, str) or not isinstance(petals, int) or not (isinstance(price, float) and isinstance(price, int)):
             raise TypeError(
                 "Incorrect types entered, the name should be a string, petals should be an integer and price should be a float")
         self._name = name
