@@ -46,3 +46,10 @@ To capture the order of growth of an algorithm's running time, we will associate
 An algorithm may run fatser on some inputs yhan it does on others of the same size. Thus we may wish to express the running time of an algorithm as the function of the input size obtained by taking the average over all possible inputs of the same size.Unfortunately, such an average-case analysis is typically quite challenging. As a result, we will characterize runninf times in terms of the worst case, as a function of the input size, n, of the algorithm. Worst case analysis is much easier than average-case analysis, as it requires only the ability to identify the worst-case input which is often simple.Also, this approach typically leads to better algorithms.
 
 ## Important Functions Used in the analysis of Algorithms.
+
+### The Constant Function
+
+The simplest function we can think of is the constant function.
+
+    f(n) = c
+
