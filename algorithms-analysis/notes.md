@@ -53,3 +53,13 @@ The simplest function we can think of is the constant function.
 
     f(n) = c
 
+That is, for any argument n, the constant function f(n) assigns the value c, therefore, no matter what value of n is; f(n) will always be equal to the constant value c.
+
+    f(n) = cg(n)
+    g(n) = 1
+
+### The Logarithmic Function
+
+One of the interesting and sometimes even surprising aspects of the analysis of data structures and algorithms is the ubiquitous presence of the logarithmic function
+
+    f(n) = log<sub>b</sub>
