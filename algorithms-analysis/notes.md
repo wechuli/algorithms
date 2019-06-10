@@ -62,4 +62,6 @@ That is, for any argument n, the constant function f(n) assigns the value c, the
 
 One of the interesting and sometimes even surprising aspects of the analysis of data structures and algorithms is the ubiquitous presence of the logarithmic function
 
-    f(n) = log<sub>b</sub>
+    x = logb n if and only if bx = n.
+
+The value b is known as the base of the logarithm. The most common base for the logarithm function in computer science is 2.
