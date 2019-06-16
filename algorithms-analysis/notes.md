@@ -64,6 +64,80 @@ One of the interesting and sometimes even surprising aspects of the analysis of 
 
     x = logb n if and only if bx = n.
 
-The value b is known as the base of the logarithm. The most common base for the logarithm function in computer science is 2.
+The value b is known as the base of the logarithm. The most common base for the logarithm function in computer science is 2 as computers store integers in binary, and because a common operation in many algorithms is to repeatedly divide an input in half.
 
-88fb07a534e1d6bae782e234a0d422bdf352d934
+#### Propositional Logarithmic rules
+
+    logb(ac) = logba + logbc
+    logb(a/c) = logba - logbc
+    logb(a^c) = clogba
+    logba = logda/logdb
+    b^(logd1) = a^(logdb)
+
+By convention, the unparenthesized notation log n^c denoted the value log(n^c). We use a notational shorthand, log^c n to denote the quantity (log n)^c, in which the result of the logarithm is raised to a power
+
+### The Linear Function
+
+Another simple yet important function is the linear function
+
+        f(n) = n
+
+That is, given an input value n, the linear function f assigns the vlue n itself. This function arises in algorithm analysis any time we have to do a single basic operation for each of n elements. The linear function also represents the best running time we can hope to achieve for any algorithm that processes each of n objects that are not already in the computer's memory, because reading in the n objects already requires n operations.
+
+### The N-Log-N Function
+
+        f(n) = nlogn
+
+that is, the function that assigns to an input n the value of n times the logarithm base-two of n. This function grows a little more rapidly than the linear function and a lot less rapidly than the quadriatic function.
+
+### The Quadriatic Function
+
+Another function that appears often in algorithm analysis is the quadratic function
+
+        f(n) = n^2
+
+That is, given an input value n, the function f assigns the product of n with itself.
+The main reason why the quadriatic function appears in the analysis of algorithms is that there are many algorithms that have nested loops, where the inner loop performs a linear number of operations and the outer loop is performed a linear number of times.
+
+The quadriatic function can also arise in the context of nested loops where the first iteration of a loop uses one operation, the second uses two operations, the third uses three operations and so on.
+
+        1+ 2+3+..+(n-2)+(n-1)+n = n(n+1)/2
+
+### The Cubic Function and Other Polynomials
+
+Consider the cubic function
+
+        f(n) = n^3
+
+#### Polynomials
+Most of the functions we have listed so far can each be viewed as being part of a larger class of functions, the polynomials. A polynomial function has the form
+
+        f(n) = a0+a1n+a2n^2+a3n^3+...+adn^d
+
+where a0,a1,...,ad are constants, called the coefficients of the polynomial and ad =/ 0 . Integer d, which indicates the highest power in the polynomial is called the degree of the polynomial
+
+### the Exponential Function
+
+Another function used in the analysis of algorithms is the exponential function
+
+        f(n) = b^n
+where b is a positive constant, called the base, and the argument n is the exponent. That is, function f(n) assigns to the input argument n the value obtained by multiiplying the base b by itself n times. As was the case with the logarithm function, the most common base for the exponential function is algorithm analysis is b =2.
+
+        (b^a)^c = b^(ac)
+        b^a * b^c = b^(a+c)
+        b^a/b^c = b^(a-c)
+
+##Summary
+- constant (c)
+- logaritmic (log n)
+- linear (n)
+- n-log-n (n log n)
+- quadriatic (n^2)
+- cubic (n^3)
+- exponential (a^n)
+
+
+When discussing logarithms, we note that the value is generally not an integer, yet the running time of an algorithm is usually expressed by means of an integer quantity such as the number of operations performed. Thus, the analysis of an algorithm may sometimes involve the use of the floor function and ceiling function.
+
+## Asymptotic Analysis
+
