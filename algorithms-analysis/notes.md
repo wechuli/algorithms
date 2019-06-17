@@ -141,3 +141,8 @@ When discussing logarithms, we note that the value is generally not an integer, 
 
 ## Asymptotic Analysis
 
+In algorithm analysis, we focus on the growth rate of the running time as a function of the input size n, taking a 'big picture' approach.
+We analyze algorithms using mathematical notation for functions that disregards constant factors. Namely, we charcterize the running times of algorithms by using functions that map the size of the input, n, to values that correspond to the main factor that determines the growth rate in terms of n. This approach redlects that each basic step in a pseudo-code description or a high-level language implementation may correspond to a small number of primitive operations. Thus we can perform an analysis of an algorithm by estimating the number of primitive operations executed up to a constant factor, rather than getting bogged down in language -specific or hardware-specific analysis of the exact number of operations that execute on the computer
+
+
+## The Big-Oh Notation
