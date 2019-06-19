@@ -146,3 +146,24 @@ We analyze algorithms using mathematical notation for functions that disregards 
 
 
 ## The Big-Oh Notation
+
+Let f(n) and g(n) be functions mapping positive integers to positive real numbers. We say that f(n) is O(g(n)) if there is a real constant c>0 and an integer constant n0>_1 such that
+
+        f(n)<-cg(n) , for n>_n0
+
+### Characterizing Runnint Times Using the Big-Oh Notation
+The big-Oh notation is widely to characterize running times and space bounds in terms of some parameter n, which varies from problem to problem, but is always defined as a chosen measure of the size of the problem.
+
+### Properties of the Big-Oh Notation
+- The big-Oh notation allows us to ignore constant factors and lower-order terms and focus on the main components of a function that affects its growth
+
+        If f(n) is a polynomial of degree d, that is
+            f(n) = a0+a1n+...adn^d,
+        and ad > 0, then f (n) is O(n^d).
+
+Thus, the highest-degree term in a polynomial is the term that determines the asymptotic growth rate of that polynomial.
+
+### Characterizing Functions in Simplest Terms
+In general, we should use the big-Oh notation to charasterize a function as closely as possible. It is also considered poor taste to include constant factors and lower-order terms in the big-Oh notation.We should strive to describe the function in the big-OH in simplest terms
+
+The seven functionas described are the most common functions used in conjunction with the big-Oh notation to characterize the running times and space usage of algorithms. Indeed, we typically use the names of these functions to refer to the running tmes of the algorithms they characterize.
