@@ -205,7 +205,9 @@ If we must draw a line between efficient and inefficient algorithms, therefore, 
 
 **Time Complexity** - Analyze runtime of an algorithm as the size of the inputs increases.
 **Space Complexity** - We can also use big O notation to analyze space complexity: how much additional memory do we need to allocate in order to run the code in our algorithm. The auxiliary space complexity refers to the space required by the algorithm, not including space taken up by the inputs.
+
 ### Space Complexity in JS Rules of Thumb
+
 - Most primitives(booleans, numbers, undefined, null) are constant space
 - Strings require O(n) space (where n is the string length)
 - Reference types are generally O(n), where n is the lenth(for arrays) or the number of keys(for objects)
