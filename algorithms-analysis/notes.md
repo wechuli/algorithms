@@ -202,3 +202,10 @@ then f (n) is O(g(n)):
   in O(2n) time should almost never be considered efficient.
 
 If we must draw a line between efficient and inefficient algorithms, therefore, it is natural to make this distinction be that between those algorithms running in polynomial time and those running in exponential time. That is, make the distinction between algorithms with a running time that is O(nc), for some constant c > 1, and those with a running time that is O(bn), for some constant b> 1. Like so many notions we have discussed in this section, this too should be taken with a “grain of salt,” for an algorithm running in O(n100) time should probably not be considered “efficient.” Even so, the distinction between polynomial-time and exponential-time algorithms is considered a robust measure of tractability.
+
+**Time Complexity** - Analyze runtime of an algorithm as the size of the inputs increases.
+**Space Complexity** - We can also use big O notation to analyze space complexity: how much additional memory do we need to allocate in order to run the code in our algorithm. The auxiliary space complexity refers to the space required by the algorithm, not including space taken up by the inputs.
+### Space Complexity in JS Rules of Thumb
+- Most primitives(booleans, numbers, undefined, null) are constant space
+- Strings require O(n) space (where n is the string length)
+- Reference types are generally O(n), where n is the lenth(for arrays) or the number of keys(for objects)
