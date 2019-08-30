@@ -1,0 +1,5 @@
+Modified the line "There are basically..." (This line was inserted.)
+There are basically 2 types of people.
+People who accomplish things, and people who claim to have accomplished things.
+Deleted the line "The first group." (This line was inserted.)
+-- Mark Twain
