@@ -1,0 +1,11 @@
+F:\repos\algorithms\numerical-algorithms\randomizing-arrays\randomising_arrays_C\obj\Debug\netcoreapp2.2\randomising_arrays_C.csprojAssemblyReference.cache
+F:\repos\algorithms\numerical-algorithms\randomizing-arrays\randomising_arrays_C\obj\Debug\netcoreapp2.2\randomising_arrays_C.csproj.CoreCompileInputs.cache
+F:\repos\algorithms\numerical-algorithms\randomizing-arrays\randomising_arrays_C\obj\Debug\netcoreapp2.2\randomising_arrays_C.AssemblyInfoInputs.cache
+F:\repos\algorithms\numerical-algorithms\randomizing-arrays\randomising_arrays_C\obj\Debug\netcoreapp2.2\randomising_arrays_C.AssemblyInfo.cs
+F:\repos\algorithms\numerical-algorithms\randomizing-arrays\randomising_arrays_C\bin\Debug\netcoreapp2.2\randomising_arrays_C.deps.json
+F:\repos\algorithms\numerical-algorithms\randomizing-arrays\randomising_arrays_C\bin\Debug\netcoreapp2.2\randomising_arrays_C.runtimeconfig.json
+F:\repos\algorithms\numerical-algorithms\randomizing-arrays\randomising_arrays_C\bin\Debug\netcoreapp2.2\randomising_arrays_C.runtimeconfig.dev.json
+F:\repos\algorithms\numerical-algorithms\randomizing-arrays\randomising_arrays_C\bin\Debug\netcoreapp2.2\randomising_arrays_C.dll
+F:\repos\algorithms\numerical-algorithms\randomizing-arrays\randomising_arrays_C\bin\Debug\netcoreapp2.2\randomising_arrays_C.pdb
+F:\repos\algorithms\numerical-algorithms\randomizing-arrays\randomising_arrays_C\obj\Debug\netcoreapp2.2\randomising_arrays_C.dll
+F:\repos\algorithms\numerical-algorithms\randomizing-arrays\randomising_arrays_C\obj\Debug\netcoreapp2.2\randomising_arrays_C.pdb
