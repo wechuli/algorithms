@@ -17,3 +17,6 @@ One simple and common method of creating pseudorandom numbers is a linear congru
 Usually programs need to use a fair PRNG. A fair PRNG is one that produces all of its possible outputs with the same probability. A PRNG that is unfair is called a biased PRNG
 
 ### Randomizing Arrays
+
+
+### Generating Nonuniform Distributions
