@@ -2,7 +2,7 @@
 from random import random
 
 colors = ["pink", "green", "yellow"]
-probabilities = [0.25, 0.30, 0.45]
+probabilities = [0.7, 0.2, 0.1]
 trials = 10000000
 
 
