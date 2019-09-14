@@ -1,0 +1,11 @@
+F:\repos\algorithms\numerical-algorithms\finding_GCD\find_gcd_c#\bin\Debug\netcoreapp2.2\find_gcd_c#.deps.json
+F:\repos\algorithms\numerical-algorithms\finding_GCD\find_gcd_c#\bin\Debug\netcoreapp2.2\find_gcd_c#.runtimeconfig.json
+F:\repos\algorithms\numerical-algorithms\finding_GCD\find_gcd_c#\bin\Debug\netcoreapp2.2\find_gcd_c#.runtimeconfig.dev.json
+F:\repos\algorithms\numerical-algorithms\finding_GCD\find_gcd_c#\bin\Debug\netcoreapp2.2\find_gcd_c#.dll
+F:\repos\algorithms\numerical-algorithms\finding_GCD\find_gcd_c#\bin\Debug\netcoreapp2.2\find_gcd_c#.pdb
+F:\repos\algorithms\numerical-algorithms\finding_GCD\find_gcd_c#\obj\Debug\netcoreapp2.2\find_gcd_c#.csprojAssemblyReference.cache
+F:\repos\algorithms\numerical-algorithms\finding_GCD\find_gcd_c#\obj\Debug\netcoreapp2.2\find_gcd_c#.csproj.CoreCompileInputs.cache
+F:\repos\algorithms\numerical-algorithms\finding_GCD\find_gcd_c#\obj\Debug\netcoreapp2.2\find_gcd_c#.AssemblyInfoInputs.cache
+F:\repos\algorithms\numerical-algorithms\finding_GCD\find_gcd_c#\obj\Debug\netcoreapp2.2\find_gcd_c#.AssemblyInfo.cs
+F:\repos\algorithms\numerical-algorithms\finding_GCD\find_gcd_c#\obj\Debug\netcoreapp2.2\find_gcd_c#.dll
+F:\repos\algorithms\numerical-algorithms\finding_GCD\find_gcd_c#\obj\Debug\netcoreapp2.2\find_gcd_c#.pdb
