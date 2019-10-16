@@ -7,6 +7,13 @@ Recursion is a technique by shich a function makes one or more calls to itself d
 In computing, recursion provides an elegant and powerful alternative for performing repetitive tasks. Recursion is an important technique in the study of data structures and algorithms,.
 
 ## Common Pitfalls
+
 - No or incorrect base case
 - Forgetting to return or returning the wrong thing!
 - Stack overflow!
+
+### Pure Recursion Tips
+
+- For arrays, use methods like slice, the spread operator and concat that make copies of arrays so you do not mutate them
+- Remember that strings are immutable so you will need to use methods like slice, substr or substring to make copies of strings
+- To make copies of objects use Object.assign or the spread operator
