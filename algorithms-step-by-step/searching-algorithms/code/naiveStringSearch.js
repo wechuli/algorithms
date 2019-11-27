@@ -7,7 +7,6 @@
 - return the count
 
 */
-
 function nativeStringSearch(text, searchString) {
   let searchStringLength = searchString.length;
   let textLength = text.length;
@@ -17,17 +16,17 @@ function nativeStringSearch(text, searchString) {
       if (searchString[j] !== text[i + j]) {
         break;
       }
-      if (
-          
-        searchString[searchStringLength - 1] ===
-        text[i + searchStringLength - 1]
-      ) {
-          console.log(searchString[j])
+      if (j === searchStringLength - 1) {
         occurences++;
       }
     }
   }
-  return occurences/searchStringLength;
+  return occurences;
 }
 
-console.log(nativeStringSearch("abcdefghhgfghdefwiewuenwuswpdjsdsdssdsfjkldfdsgfhgdef", "def"));
+console.log(
+  nativeStringSearch(
+    "abcdefghhgfghdefwiewuedefinwuswpdefdefdefdjsdedkls'o[[[[[[[fdfkdefifdfdfdggfglkl;knflnglfkjbgnfjbgklfd;lgmfd;gklfkjldghfkljnsf;l,d'sfhjbkhjbenrk;erkewrkndedefifdfdfdggfgvcvdfsdfifdfdfdggfggd'hk;defifdfdfdggfgfgkdfkgnflkjlbc agidefifdefdefodefisdssdsfjkldfdsgfhgdeffnldfddefds6gfjdlsfgggggfdfodlfd';fd;'rhreierlerefferfef;eofkidn;sgfdigldogldokfjinfdnfdfgkd;dgkfkhghgkhgfhdgfgh;dflmhfhldf;ghmfkg;mfdg;nkjgr;ketrtrtrtrtr6re",
+    "defifdfdfdggfgvcvdfsd"
+  )
+);
