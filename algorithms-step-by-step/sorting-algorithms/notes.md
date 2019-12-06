@@ -16,4 +16,6 @@ A sorting algorithm where the largest values bubble up to the top!
 Big OH Complexity for Bubble Sort = O(N^2)
 
 ## Selection Sort
+
 Similar to bubble sort, but instead of first placing large values into sorted position, it places small values into sorted position.
+Big Oh Complexity for Selection Sort = O(N^2)
