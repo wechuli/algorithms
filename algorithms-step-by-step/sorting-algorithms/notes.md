@@ -14,3 +14,6 @@ Sorting is the process of rearranging the items in a collection so that the item
 A sorting algorithm where the largest values bubble up to the top!
 
 Big OH Complexity for Bubble Sort = O(N^2)
+
+## Selection Sort
+Similar to bubble sort, but instead of first placing large values into sorted position, it places small values into sorted position.
