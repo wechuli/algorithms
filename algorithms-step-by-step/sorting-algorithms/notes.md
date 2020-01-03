@@ -19,3 +19,7 @@ Big OH Complexity for Bubble Sort = O(N^2)
 
 Similar to bubble sort, but instead of first placing large values into sorted position, it places small values into sorted position.
 Big Oh Complexity for Selection Sort = O(N^2)
+
+## Insertion Sort
+
+Builds up the sort by gradually creating larger left half which is always sorted.
