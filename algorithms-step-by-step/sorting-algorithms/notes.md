@@ -23,3 +23,6 @@ Big Oh Complexity for Selection Sort = O(N^2)
 ## Insertion Sort
 
 Builds up the sort by gradually creating larger left half which is always sorted.
+
+## Merge Sort
+
