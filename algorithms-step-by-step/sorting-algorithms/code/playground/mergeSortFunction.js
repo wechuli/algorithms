@@ -36,13 +36,13 @@ function mergeSortFunction(array1, array2) {
     if (i === array1.length && j === array2.length) {
       break;
     }
-    // If we have reached the end of array1 and j has more elements still, copy the remaining elements of array2 into the results and then break
-    if (i === array1.length && j >= i) {
+    // If we have reached the end of array1 and array2 has more elements still, copy the remaining elements of array2 into the results and then break
+    if (i === array1.length) {
       results.push(...array2.slice(j));
       break;
     }
-    // If we have reached the end of array2 and i has more elements still, copy the remaining elements of array1 into the results and then break
-    if (j === array2.length && i >= j) {
+    // If we have reached the end of array2 and array1 has more elements still, copy the remaining elements of array1 into the results and then break
+    if (j === array2.length) {
       results.push(...array1.slice(i));
       break;
     }
@@ -60,4 +60,4 @@ function mergeSortFunction(array1, array2) {
 }
 
 console.log(mergeSortFunction(input1, input2));
-console.log(mergeSortFunction([1, 2, 1000, 8569], [0, 3, 4, 89]));
+console.log(mergeSortFunction([1, 23, 56], [0]));
