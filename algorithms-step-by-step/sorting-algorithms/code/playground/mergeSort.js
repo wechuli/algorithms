@@ -8,6 +8,7 @@ const { merge } = require("./mergeSortFunction");
 const myunsortedArray = [0, 3, 4, 21, 3, -43, 1, 232, 4, 3, 56, 35];
 
 function mergeSort(array) {
+  // base case to end recursion
   if (array.length === 0 || array.length === 1) {
     return array;
   }
