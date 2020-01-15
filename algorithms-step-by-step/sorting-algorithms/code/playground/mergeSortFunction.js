@@ -27,7 +27,7 @@ input1 = [
 ];
 input2 = [-34, 0, 5, 12, 89, 98, 1002, 4564, 5000];
 
-function mergeSortFunction(array1, array2) {
+function merge(array1, array2) {
   let results = [];
   let i = 0;
   let j = 0;
@@ -54,10 +54,17 @@ function mergeSortFunction(array1, array2) {
       results.push(array2[j]);
       j++;
     }
-    console.log(i, j);
   }
   return results;
 }
 
-console.log(mergeSortFunction(input1, input2));
-console.log(mergeSortFunction([1, 23, 56], [0]));
+module.exports = {
+  merge
+};
+
+// console.log(mergeSortFunction(input1, input2));
+// console.log(mergeSortFunction([1, 23, 56], [0]));
+// console.log(mergeSortFunction([0], [0]));
+// console.log(mergeSortFunction([], []));
+// console.log(mergeSortFunction([], [1]));
+// console.log(mergeSortFunction([1], []));
