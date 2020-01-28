@@ -29,3 +29,9 @@ Builds up the sort by gradually creating larger left half which is always sorted
 - It's a combination of two things - merging and sorting
 - Exploits the fact that arrays of 0 or 1 element are always sorted
 - Works by decomposing an array into smaller arrays of smaller arrays of 0 or 1 elements, then building up a newly sorted array
+
+## Quick Sort
+
+- Like merge sort, exploits the fact that arrays of 0 or 1 element are always sorted
+- Works by selecting one element (called the "pivot") and finding the index where the pivot should end up in the sorted array
+- Once the pivot is positioned appropriately, quick sort can be applied on either side of the pivot
