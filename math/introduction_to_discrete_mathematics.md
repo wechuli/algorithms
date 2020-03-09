@@ -21,3 +21,7 @@ A mathematical proof is an inferential argument for a mathematical statement, sh
 - **claim** - object with given properties exists
 - **proof** - an example
 - one example is enough
+
+## How to Find an Example
+
+How can we be certain that an object with certain requirements exist? One way to show this, is to go through all objects and check whether at least one of them meets the requirements. However, in many cases, the search space is enormous. A computer may help, but some reasoning that narrows the search space is important both for computer search and for "bare hands" work.
