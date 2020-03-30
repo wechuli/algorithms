@@ -1,4 +1,4 @@
-class Student {
+class Student  {
   private firstName: string;
   private lastName: string;
   private year: Date;
