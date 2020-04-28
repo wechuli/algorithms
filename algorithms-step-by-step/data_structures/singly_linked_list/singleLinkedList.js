@@ -13,14 +13,24 @@ class LinkedList {
   }
 
   push(value) {
+    let newNode = new Node(value);
     if (!this.head) {
-      this.head = value;
-      this.tail = value;
+      this.head = newNode;
+      this.tail = this.head;
     } else {
-      this.tail.next = value;
-      this.tail = value;
+      this.tail.next = newNode;
+      this.tail = newNode;
     }
     this.length++;
+    return this;
+  }
+
+  traverse() {
+    let current = this.head;
+    while (current) {
+      console.log(current);
+      current = current.next;
+    }
   }
 }
 
@@ -32,3 +42,5 @@ myLinkedList.push(new Node([1, 2]));
 myLinkedList.push(new Node(895.58));
 
 console.log(myLinkedList);
+
+myLinkedList.traverse();
